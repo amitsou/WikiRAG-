@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chat Assistant</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+    <div class="chat-container">
+        <h2 class="text-center text-xl font-semibold py-3">💬 AI Chat Assistant</h2>
+
+        <div id="chatBox" class="chat-box">
+            <div class="bot-message message">Hello! Ask me anything.</div>
+        </div>
+
+        <div class="chat-input">
+            <input id="userQuery" type="text" class="input-box" placeholder="Type your message...">
+            <button onclick="sendQuery()" class="send-btn">Send</button>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>

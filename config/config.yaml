@@ -1,0 +1,32 @@
+azure_openai:
+  base_url: https://oai-cs-eng.openai.azure.com/
+  model_name: "gpt-4o"
+  deployment_name_engine: "gpt4o"
+  embedding_model: "text-embedding-ada-002"
+  embedding_deployment_name: "embedding-ada"
+  model_version: "2024-05-13"
+
+sentence_transformer:
+  embedding_model:
+    model_name: "all-MiniLM-L6-v2"  # #Sentence-Transformers model for local embeddings
+
+qdrant:
+  host: "http://localhost:6333"
+  collection_name: "huggingface_cosmopedia"
+  vector_size: 384  # #Match SentenceTransformer all-MiniLM-L6-v2 output
+      # #Change to 1536 for OpenAI's text-embedding-ada-002
+  distance_metric: "cosine"  # #Options: "cosine", "dot", "euclidean"
+
+dataset:
+  name: "HuggingFaceTB/cosmopedia"
+  subset: "wikihow"  # #The subset to load
+  # #Available subsets:
+  # #['auto_math_text','khanacademy','openstax','stanford','stories','web_samples_v1','web_samples_v2','wikihow']
+  sample_size: 500
+  dataset_filename: "cosmopedia_wikihow.parquet"
+  chunk_size: 800
+  chunk_overlap: 100
+
+llm_provider: "huggingface"
+
+# How do I choose a topic for a WikiHow article?

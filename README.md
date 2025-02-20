@@ -66,3 +66,7 @@ OR use the provided UI to query the vector db as well as the LLM.
 <p align="center">
   <img src="src/fastapi_app/static/images/rag_example.png" alt="RAG Example" width="500"/>
 </p>
+
+For a detailed explanation of the system architecture and how components interact, refer to the **Software Architecture** documentation:
+
+[View Software Architecture Details](docs/software_architecture.md)

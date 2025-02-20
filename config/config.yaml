@@ -28,5 +28,3 @@ dataset:
   chunk_overlap: 100
 
 llm_provider: "huggingface"
-
-# How do I choose a topic for a WikiHow article?

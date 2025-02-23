@@ -88,7 +88,7 @@ Below is a detailed description of each component and how they interact based on
 
 ---
 
-## Request Flow (Simplified)
+## Request Flow
 
 1. A user visits the **Client Application** (UI) served by the **Static UI Endpoint**.
 2. The user logs in or makes a request. The request goes through:
@@ -103,7 +103,7 @@ Below is a detailed description of each component and how they interact based on
 
 ---
 
-## Data/Document Flow (Simplified)
+## Data/Document Flow
 
 1. An admin uses the **Admin Interface** to **Upload New Documents**.
 2. The system triggers **Data Processing**:

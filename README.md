@@ -1,4 +1,4 @@
-# **PwC RAG PoC**
+# **WikiRAG**
 
 This project is a **Proof of Concept (PoC)** for a **Retrieval-Augmented Generation (RAG)** system using **FastAPI**, **Qdrant (vector database)**, and **Hugging Face API**.
 

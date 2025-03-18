@@ -14,8 +14,8 @@ This project is a **Proof of Concept (PoC)** for a **Retrieval-Augmented Generat
 
 ### Clone the Repository
 ```
-git clone https://github.com/amitsou/pwc_rag_poc.git
-cd pwc_rag_poc
+git clone git@github.com:amitsou/WikiRAG-.git
+cd WikiRAG-
 ```
 
 ### Create a Virtual Environment
